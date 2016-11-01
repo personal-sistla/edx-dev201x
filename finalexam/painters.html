@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" ng-app="dev201xApp">
 <head>
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
-    <link rel="stylesheet" href="app.css" type="text/css" />
+    <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="styles/app.css" rel="stylesheet" />
-    <script src="app.js"></script>
 </head>
 <body>
     <div class="row">
@@ -18,7 +18,13 @@
         </div>
     </div>
 
-
     <div id="content"></div>
+    <div class="hidden">
+        <script src="scripts/jquery-1.9.1.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/angular.min.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/PainterController.js"></script>
+    </div>
 </body>
 </html>
