@@ -1,32 +1,42 @@
-﻿body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 40px;
+﻿.artist-thumbnail {
+    max-width: 120px;
+    max-height: 120px;
 }
 
-span {
-    font-style: italic;
+.painting-thumbnail {
+    max-width: 90px;
+    max-height: 90px;
 }
 
-textarea
+.artist-image {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+html {
+    background-color: #F8F8F8;
+}
+
+body {
+    background-color: #FFFFFF;
+    max-height: 100%;
+}
+
+.painters-list {
+    max-height: 800px;
+    overflow-y: scroll;
+}
+.painters-list::-webkit-scrollbar
 {
-    width: 200px;
-    height: 100px;
-
-margin-top: 5px; 
+  width: 5px;  /* for vertical scrollbars */
+  height: 5px; /* for horizontal scrollbars */
+}
+.painters-list::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
 }
 
-.foodGroups
+.painters-list::-webkit-scrollbar-thumb
 {
-    /*float:left*/
-}
-
-.logoImg
-{
-    float:left;
-    margin-bottom: 5px;
-    margin-right: 5px; 
-}
-.examples
-{
-    float:left;
+  background: rgba(0, 0, 0, 0.4);
 }
