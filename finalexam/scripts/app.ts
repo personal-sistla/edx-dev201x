@@ -6,7 +6,7 @@
         public artists: edx.dev201x.defs.Artist[];
         public selectedArtist: edx.dev201x.defs.Artist;
 
-        constructor(private artistService: edx.dev201x.services.IArtistService) {
+        constructor(private artistService: ArtistService) {
 
             this.artistService.getArtists().then((artists: Array<edx.dev201x.defs.Artist>) => {
                 this.artists = artists;

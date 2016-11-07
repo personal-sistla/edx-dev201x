@@ -19,24 +19,39 @@ html {
 
 body {
     background-color: #FFFFFF;
-    max-height: 100%;
+    font-family: arial,sans-serif;
+    height: 100%;
+    overflow-y: auto;
 }
 
-.painters-list {
-    max-height: 800px;
-    overflow-y: scroll;
-}
-.painters-list::-webkit-scrollbar
-{
-  width: 5px;  /* for vertical scrollbars */
-  height: 5px; /* for horizontal scrollbars */
-}
-.painters-list::-webkit-scrollbar-track
-{
-  background: rgba(0, 0, 0, 0.1);
+.painters-list::-webkit-scrollbar {
+    width: 5px; /* for vertical scrollbars */
+    height: 5px; /* for horizontal scrollbars */
 }
 
-.painters-list::-webkit-scrollbar-thumb
-{
-  background: rgba(0, 0, 0, 0.4);
+.painters-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
 }
+
+.painters-list::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.painter-details {
+    position: fixed;
+    margin-left: 20px;
+    height: 100%;
+    float: right;
+    border-left: 1px solid #DDDDDD;
+    background-color: white;
+}
+
+.painter-info {
+    padding: 0 15px;
+    font-size: 13px;
+    line-height: 1.24;
+}
+
+    .painter-info div {
+        margin-top: 5px;
+    }

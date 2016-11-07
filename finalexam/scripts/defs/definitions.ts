@@ -1,12 +1,18 @@
 ﻿module edx.dev201x.defs {
 
+    export interface IResource {
+        image: string;
+        followup: string;
+    }
+
     export class Artist {
         public styles: Array<string>;
         public work: Array<Art>;
         public dateOfBirth: Date;
         public dateOfDeath: Date;
         public place: string;
-        public url: string;
+        public resource: IResource;
+        public description: string;
 
         constructor(public name: string) {
             this.styles = new Array<string>();
@@ -15,12 +21,11 @@
 
         setPersonalInfo(dob: Date,
             dod: Date,
-            url: string,
-            place: string) {
+            place: string,
+            description?: string) {
             this.dateOfBirth = dob;
             this.dateOfDeath = dod;
             this.place = place;
-            this.url = url;
         }
 
         addWork(art: Art) {
@@ -31,10 +36,9 @@
     export class Art {
         constructor(public title: string,
             public artist: Artist,
-            public style: string,
             public date: Date,
-            public description?: string) {
-
+            public description?: string,
+            public resource?: IResource) {
         }
     }
 }

@@ -1,29 +1,55 @@
 {
-	"famousPainters": [
-		{
-			"name": "Michelangelo",
-			"style:": "Renaissance",
-			"examples: ": [ "David", "Sistine Chapel", "The Last Judgement" ]
-		},
+  "painters": [
+    {
+      "name": "Michelangelo",
+      "style:": "Renaissance",
+      "examples: ": [ "David", "Sistine Chapel", "The Last Judgement" ]
+    },
+    {
+      "name": "Raphael",
+      "style:": "Renaissance",
+      "examples: ": [ "School at Athens", "Lucretia", "Saint George and the Dragon" ]
+    },
+    {
+      "name": "Vincent van Gogh",
+      "style:": "Post-Impressionist",
+      "examples: ": [ "Self-portrait", "The Starry Night", "The Yellow House" ]
+    },
+    {
+      "name": "Claude Monet",
+      "style:": "Impressionist",
+      "examples: ": [ "Morning on the Seine", "The Woman in the Green Dress", "Sunrise" ]
+    },
+    {
+      "name": "Johannes Vermeer",
+      "style:": "Baroque",
+      "examples: ": [ "The Milkmaid", "Girl with a Pearl Earring", "The Music Lesson" ]
+    }
+  ],
+  "famousPainters": [
+    {
+      "name": "Vincent van Gogh",
+      "styles": [ "Post-Impressionist" ],
+      "dateOfBirth": "March 30, 1853",
+      "dateOfDeath": "July 29, 1890",
+      "description": "Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art.",
+      "resource": {
+        "followup": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+        "image": "http://a2.files.biography.com/image/upload/c_fit,cs_srgb,dpr_1.0,h_1200,q_80,w_1200/MTE1ODA0OTcxODExNDQwMTQx.jpg"
+      },
+      "work": [
         {
-            "name": "Raphael",
-            "style:": "Renaissance",
-            "examples: ": [ "School at Athens", "Lucretia", "Saint George and the Dragon" ]
-        },
-        {
-            "name": "Vincent van Gogh",
-            "style:": "Post-Impressionist",
-            "examples: ": [ "Self-portrait", "The Starry Night", "The Yellow House" ]
-        },
-        {
-            "name": "Claude Monet",
-            "style:": "Impressionist",
-            "examples: ": [ "Morning on the Seine", "The Woman in the Green Dress", "Sunrise" ]
-        },
-        {
-            "name": "Johannes Vermeer",
-            "style:": "Baroque",
-            "examples: ": [ "The Milkmaid", "Girl with a Pearl Earring", "The Music Lesson" ]
+          "title": "",
+          "style": "",
+          "date": "",
+          "description": "",
+          "resource": {
+            "followup": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+            "thumbnail": "",
+            "image": ""
+          }
         }
-	]
+      ]
+    }
+  ]
 }
