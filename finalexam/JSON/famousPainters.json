@@ -39,16 +39,38 @@
       },
       "work": [
         {
-          "title": "",
-          "style": "",
-          "date": "",
-          "description": "",
+          "title": "The Starry Night",
+          "style": "Post-Impressionism",
+		  "genre": "Landscape painting",
+          "date": "June 1889",
+          "description": "The Starry Night is an oil on canvas by the Dutch post-impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an idealized village. It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. It is regarded as among Van Gogh's finest works, and is one of the most recognized paintings in the history of Western culture.",
           "resource": {
-            "followup": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
-            "thumbnail": "",
-            "image": ""
+            "followup": "https://en.wikipedia.org/wiki/The_Starry_Night",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
           }
-        }
+        },		
+        {
+          "title": "Irises",
+          "style": "Post-Impressionism",
+		  "genre": "",
+          "date": "May 1889",
+          "description": "Irises is one of several painitngs of irises by the Dutch artist Vincent van Gogh, and one of a series of paintings he executed at the Saint Paul-de-Mausole asylum in Saint-Rémy-de-Provence, France, in the last year before his death in 1890.",
+          "resource": {
+            "followup": "https://en.wikipedia.org/wiki/Irises_(painting)",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Irises-Vincent_van_Gogh.jpg/1005px-Irises-Vincent_van_Gogh.jpg"
+          }
+        },		
+        {
+          "title": "Café Terrace at Night",
+          "style": "Post-Impressionism",
+		  "genre": "",
+          "date": "September 1888",
+          "description": "Café Terrace at Night, also known as The Cafe Terrace on the Place du Forum, is an oil painting executed by the Dutch artist Vincent van Gogh while at Arles, France, in mid-September 1888.",
+          "resource": {
+            "followup": "https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Van_Gogh_-_Terrasse_des_Caf%C3%A9s_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg/450px-Van_Gogh_-_Terrasse_des_Caf%C3%A9s_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg"
+          }
+        },
       ]
     }
   ]
